@@ -120,11 +120,8 @@ EXIT;
 
 #### Étape 5 – Installer le dépôt Zabbix
 
-```bash
-wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_7.0-1+ubuntu22.04_all.deb
-sudo dpkg -i zabbix-release_7.0-1+ubuntu22.04_all.deb
-sudo apt update
-```
+https://www.zabbix.com/download?zabbix=7.4&os_distribution=ubuntu&os_version=22.04&components=server_frontend_agent&db=mysql&ws=apache
+
 
 #### Étape 6 – Installer les composants Zabbix
 
